@@ -24,5 +24,6 @@ public class Principal {
         for (Coche coche : lista_coches) {
             coche.start();
         }
+        sc.close();
     }
 }

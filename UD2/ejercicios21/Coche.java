@@ -1,7 +1,5 @@
 package UD2.ejercicios21;
 
-import java.util.*;
-
 public class Coche extends Thread{
 
     int num_coche;
