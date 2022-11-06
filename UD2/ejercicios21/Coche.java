@@ -23,7 +23,7 @@ public class Coche extends Thread{
             num =(int)(Math.random()*100);  
             avanzar += num;
 
-            if (avanzar > 500) {
+            if (avanzar >= 500) {
                 parar = true;
             }else{
                 try {
@@ -38,8 +38,9 @@ public class Coche extends Thread{
 
         }
 
-        System.out.println("----------------------------------------------------");
+        System.out.println("--------------------------------------------------------------------------");
         System.out.println("El coche "+getName()+" ha recorrido "+avanzar+" KM, por lo tanto ha acabado");
+        System.out.println("--------------------------------------------------------------------------");
 
     }
 }

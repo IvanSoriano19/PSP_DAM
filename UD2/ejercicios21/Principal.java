@@ -20,9 +20,8 @@ public class Principal {
         }
 
         System.out.println("Va a empezar la carrera");
-        Iterator it = lista_coches.iterator();
-        while (it.hasNext()) {
-            Coche coche = (Coche)it.next();
+
+        for (Coche coche : lista_coches) {
             coche.start();
         }
     }
