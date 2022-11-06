@@ -18,10 +18,9 @@ public class Coche extends Thread{
     }
 
     public void run() {
-        Random rd = new Random();
         int num;
         while (!parar) {
-            num = rd.nextInt()*100;
+            num =(int)(Math.random()*100);  
             avanzar += num;
 
             if (avanzar > 500) {
