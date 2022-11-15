@@ -19,4 +19,8 @@ public class Autobus {
 		velocidad = nuevavelo;
 	}
 
+    public String getMatricula() {
+        return matricula;
+    }
+
 }
