@@ -107,7 +107,6 @@ public class Principal {
         try {
             h.join();
         } catch (Exception e) {
-            // TODO: handle exception
         }
 
 
