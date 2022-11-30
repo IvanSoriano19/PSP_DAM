@@ -13,7 +13,7 @@ public class Cuenta {
 
     public void ingresar(int newDinero , String nombre){
         dinero += newDinero;
-        System.out.println(nombre+" ha ingresado "+ newDinero+" ahora hay "+dinero);
+        System.out.println(nombre+"=> ha ingresado "+ newDinero+" ahora hay "+dinero);
     }
 
 }
