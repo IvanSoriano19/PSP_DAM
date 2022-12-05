@@ -1,27 +1,23 @@
-public class Persona {
+public class Persona extends Thread{
     private String nombre;
     private Cuenta cuenta;
 
-    public Persona(String name, Cuenta cuenta){
+    public Persona(String name, Cuenta cuenta) {
         nombre = name;
-        int dinero;
-        for (int i = 0; i < 4; i++) {
-            dinero = (int) (Math.random()*501);
-            if (i%2==0){
-                cuenta.ingresar(dinero,name);
-            }else{
-                System.out.println("impar");
-            }
-        }
-
-        // hay que sincronizar las personas para
-        // que cuando uno no pueda ingresar, se
-        // espere a se retire dinero para que pueda pueda ingresar dinero.
-
-    public String getNombre() {
-        return nombre;
+        this.cuenta = cuenta;
     }
 
-
-
+    public void run(){
+        int dinero;
+        for (int i = 0; i < 4; i++) {
+            dinero = (int) (Math.random() * 501);
+            if (i % 2 == 0) {
+//                System.out.println(nombre+" va a ingresar "+dinero+" .(actualmente hay "+cuenta.getDinero()+" euros).");
+                cuenta.ingresar(dinero, nombre);
+            } else {
+//                System.out.println(nombre+" va a retirar "+dinero+" .(actualmente hay "+cuenta.getDinero()+" euros).");
+                cuenta.retirar(dinero, nombre);
+            }
+        }
+    }
 }
