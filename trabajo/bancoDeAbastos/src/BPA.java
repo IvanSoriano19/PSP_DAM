@@ -1,10 +1,10 @@
 public class BPA {
 
     public static void main(String[] args) {
-        Cuenta c = new Cuenta(40, 500);
+        Cuenta cuenta = new Cuenta(40, 500);
 
-        Persona juan = new Persona("Juan",c);
-        Persona pepa = new Persona("Pepa",c);
+        Persona juan = new Persona("Juan",cuenta);
+        Persona pepa = new Persona("Pepa",cuenta);
 
         juan.start();
         pepa.start();
