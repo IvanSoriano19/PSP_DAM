@@ -8,7 +8,7 @@ public class Ramonix extends Thread {
     }
 
     private static int PORT = Comu.PORT;
-    private static int energia = 200;
+    private static int energia = 500;
 
     public void run() {
 
@@ -39,7 +39,7 @@ public class Ramonix extends Thread {
 
             }
 
-            System.out.println(Comu.ANSI_WHITE_BACKGROUND+Comu.ANSI_BLACK+"RAMONIX TANGO DOWN"+Comu.ANSI_RESET);
+            System.out.println(Comu.ANSI_WHITE_BACKGROUND+Comu.ANSI_BLACK+"\nRAMONIX TANGO DOWN"+Comu.ANSI_RESET);
 
             serverSocket.close();
 

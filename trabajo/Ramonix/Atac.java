@@ -29,7 +29,11 @@ public class Atac extends Thread {
                 energia = dataInputStream.readInt();
             
                 if (energia > 0) {
-                    System.out.println(name + " atacant");
+                    if (name.equalsIgnoreCase("Ab4$t0$")) {
+                        System.out.println(Comu.ANSI_CYAN + "Ataca " + name + Comu.ANSI_RESET);
+                    } else {
+                        System.out.println(Comu.ANSI_GREEN + "Ataca " + name + Comu.ANSI_RESET);
+                    }
                     damage = damage(name);
                     //Aqui meto los datos en un string separado por un guion
                     //para cuando pase los datos poder separarlos mas comodo con un split
