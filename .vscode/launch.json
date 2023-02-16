@@ -1,0 +1,224 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch BPA",
+            "request": "launch",
+            "mainClass": "BPA",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client",
+            "request": "launch",
+            "mainClass": "QuizMagic.Client",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Servidor",
+            "request": "launch",
+            "mainClass": "QuizMagic.Servidor",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client(1)",
+            "request": "launch",
+            "mainClass": "T4S2Exemple1_MultiFil.Client",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Servidor(1)",
+            "request": "launch",
+            "mainClass": "T4S2Exemple1_MultiFil.Servidor",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client(2)",
+            "request": "launch",
+            "mainClass": "T4S2P3QuizMagic.Client",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Servidor(2)",
+            "request": "launch",
+            "mainClass": "T4S2P3QuizMagic.Servidor",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal",
+            "request": "launch",
+            "mainClass": "UD2.banco.Principal",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Fil",
+            "request": "launch",
+            "mainClass": "UD2.ejercicio11.Fil",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prinipal",
+            "request": "launch",
+            "mainClass": "UD2.ejercicio112.Prinipal",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(1)",
+            "request": "launch",
+            "mainClass": "UD2.ejercicio31.Principal",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(2)",
+            "request": "launch",
+            "mainClass": "UD2.ejercicio33.Principal",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(3)",
+            "request": "launch",
+            "mainClass": "UD2.ejercicio_menu.Principal",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(4)",
+            "request": "launch",
+            "mainClass": "UD2.ejercicios21.Principal",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(5)",
+            "request": "launch",
+            "mainClass": "UD2.filosofos.Principal",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(6)",
+            "request": "launch",
+            "mainClass": "UD2.hola_mundo.Principal",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(7)",
+            "request": "launch",
+            "mainClass": "UD2.hola_mundo2.Principal",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(8)",
+            "request": "launch",
+            "mainClass": "UD2.hola_mundo3.Principal",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(9)",
+            "request": "launch",
+            "mainClass": "UD2.join.Principal",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(10)",
+            "request": "launch",
+            "mainClass": "UD2.titanic.Principal",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(11)",
+            "request": "launch",
+            "mainClass": "UD2.vector.Principal",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "pracica.Main",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client(3)",
+            "request": "launch",
+            "mainClass": "practica2.Client",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Server",
+            "request": "launch",
+            "mainClass": "practica2.Server",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client(4)",
+            "request": "launch",
+            "mainClass": "practica3.Client",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Servidor(3)",
+            "request": "launch",
+            "mainClass": "practica3.Servidor",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Client(5)",
+            "request": "launch",
+            "mainClass": "practica4.Client",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Servidor(4)",
+            "request": "launch",
+            "mainClass": "practica4.Servidor",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal(12)",
+            "request": "launch",
+            "mainClass": "trabajo.Ramonix.Principal",
+            "projectName": "Practicas_c8b13f8b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ramonix",
+            "request": "launch",
+            "mainClass": "trabajo.Ramonix.Ramonix",
+            "projectName": "Practicas_c8b13f8b"
+        }
+    ]
+}
