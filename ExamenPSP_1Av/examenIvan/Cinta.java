@@ -1,4 +1,5 @@
-//package ExamenPSP_1Av.Examen;
+//package ExamenPSP_1Av.examenIvan;
+
 public class Cinta {
 	int kilos = 0;
 
@@ -20,3 +21,4 @@ public class Cinta {
 		return kilos;
 	}
 }
+

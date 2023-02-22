@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Principal",
+            "request": "launch",
+            "mainClass": "ExamenPSP_1Av.examenIvan.Principal",
+            "projectName": "PSP_DAM_7d1ccb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal",
+            "request": "launch",
+            "mainClass": "ExamenPSP_1Av.Examen.Principal",
+            "projectName": "PSP_DAM_7d1ccb3"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

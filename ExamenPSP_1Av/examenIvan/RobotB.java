@@ -1,4 +1,5 @@
-//package ExamenPSP_1Av.Examen;
+//package ExamenPSP_1Av.examenIvan;
+
 public class RobotB extends Thread {
 	final Cinta cinta;
 	int mallas;

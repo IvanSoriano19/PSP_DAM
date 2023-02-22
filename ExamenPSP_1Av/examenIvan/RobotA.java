@@ -1,4 +1,5 @@
-//package ExamenPSP_1Av.Examen;
+//package ExamenPSP_1Av.examenIvan;
+
 public class RobotA extends Thread {
 	final Cinta cinta;
 	int kilos;
@@ -16,7 +17,7 @@ public class RobotA extends Thread {
 				try {
 					cinta.notify();
 					sleep(tiempo);
-					cinta.cargaKilos(kilos);		
+					cinta.cargaKilos(kilos);
 					System.out.printf("->Se ponen: %d kilos. Quedan: %d kilos en la cinta.\n", kilos, cinta.getKilos());
 					cinta.wait();
 				} catch (InterruptedException e) {
