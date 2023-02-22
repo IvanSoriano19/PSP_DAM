@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Launch Principal",
             "request": "launch",
+            "mainClass": "ExamenPrimeraEv.Principal",
+            "projectName": "PSP_DAM_7d1ccb3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Principal",
+            "request": "launch",
             "mainClass": "ExamenPSP_1Av.examenIvan.Principal",
             "projectName": "PSP_DAM_7d1ccb3"
         },
